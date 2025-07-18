@@ -9,7 +9,10 @@ const connectDB = async() => {
         const connectedString = await mongoose.connect (
             process.env.MONGO_URI
         )
-    } catch(error) {
+        .then(() => console.log('Connected to MongoDB'))
+    } 
+    
+    catch(error) {
         console.log("Error occured while connecting to mongodb",error)
     }
 };

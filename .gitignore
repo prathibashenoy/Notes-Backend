@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS and editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Build or compiled output (if any)
+dist/
+build/
+
+# Git ignored files backup
+*.orig
+
+# Optional: database dumps or temporary files
+*.sqlite
+*.db
+*.bak
+*.tmp
